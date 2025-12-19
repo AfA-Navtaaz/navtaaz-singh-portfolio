@@ -4,22 +4,22 @@ const highlights = [
   {
     icon: Shield,
     title: "Reliability Engineering",
-    description: "RCM, SIL verification, FMEA, and asset performance management in refinery operations",
+    description: "RCM, SIL verification, FMEA, and asset performance management that improved uptime and safety compliance",
   },
   {
     icon: TrendingUp,
     title: "Operations Research",
-    description: "Mathematical optimization, MILP modeling, and decision analysis for complex systems",
+    description: "Mathematical optimization, MILP modeling, and decision analysis that convert complex constraints into executable plans",
   },
   {
     icon: BarChart3,
     title: "Supply Chain Analytics",
-    description: "Distribution management, vehicle routing optimization, and lean engineering principles",
+    description: "Distribution management, vehicle routing optimization, and lean engineering that deliver measurable cycle-time and cost gains",
   },
   {
     icon: Target,
     title: "Industrial Systems",
-    description: "IIoT implementation, CMMS, instrumentation & control systems integration",
+    description: "IIoT implementation, CMMS, instrumentation & control systems integration with clear operational KPIs",
   },
 ];
 
@@ -33,9 +33,10 @@ export function About() {
           </h2>
           <div className="w-16 h-1 bg-primary mx-auto mb-6 rounded-full" />
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm a Master's student in Industrial Engineering at Dalhousie University with hands-on experience 
-            in reliability and instrumentation engineering from the energy sector. My expertise bridges 
-            traditional industrial engineering with data-driven decision making and optimization.
+            I'm a Master's student in Industrial Engineering at Dalhousie University who specializes in turning
+            reliability and operations research into measurable performance. With energy-sector experience in
+            instrumentation and controls, I pair shop-floor realities with optimization models to drive safer,
+            leaner, and more predictable operations.
           </p>
         </div>
 
