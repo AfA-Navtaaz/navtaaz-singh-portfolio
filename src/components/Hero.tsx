@@ -1,6 +1,7 @@
 import { MapPin, Calendar, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export function Hero() {
   const scrollToProjects = () => {
@@ -25,12 +26,28 @@ export function Hero() {
       
       <div className="container-narrow relative z-10">
         <div className="max-w-3xl mx-auto text-center">
+          {/* Profile Photo */}
+          <div className="mb-8 animate-scale-in">
+            <div className="relative inline-block">
+              <div className="w-36 h-36 sm:w-44 sm:h-44 rounded-full overflow-hidden ring-4 ring-primary/20 shadow-lg mx-auto">
+                <img 
+                  src={profilePhoto} 
+                  alt="Navtaaz Singh - Industrial Engineer"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              {/* Status indicator */}
+              <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-accent rounded-full border-4 border-background flex items-center justify-center">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-foreground opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-foreground"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+
           {/* Status Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 mb-8 animate-fade-in">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
-            </span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 mb-6 animate-fade-in">
             <span className="text-sm font-medium text-accent">
               Actively seeking Summer 2025 Co-op Opportunities
             </span>
