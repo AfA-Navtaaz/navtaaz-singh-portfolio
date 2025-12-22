@@ -19,7 +19,7 @@ const skillCategories = [
   {
     title: "Industrial Systems",
     icon: Settings,
-    skills: ["APM", "CMMS", "IIoT", "Emerson ValveLink", "DCS", "PLC"],
+    skills: ["APM", "CMMS", "Industrial IIoT", "Emerson ValveLink", "DCS", "PLC"],
   },
   {
     title: "Programming & Data",

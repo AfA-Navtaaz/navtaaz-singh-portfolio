@@ -4,22 +4,22 @@ const highlights = [
   {
     icon: Shield,
     title: "Reliability Engineering",
-    description: "RCM, SIL verification, FMEA, and asset performance management that delivered a 12% uptime lift and zero recordable incidents",
+    description: "RCM, SIL verification, FMEA, and asset performance management resulting in a 12% uptime improvement and zero recordable incidents",
   },
   {
     icon: TrendingUp,
     title: "Operations Research",
-    description: "Mathematical optimization, MILP modeling, and decision analysis that turn constraints into executable plans with 15–20% efficiency gains",
+    description: "Mathematical optimization, MILP modeling, and decision analysis that convert complex constraints into executable plans with 15–20% efficiency gains",
   },
   {
     icon: BarChart3,
     title: "Supply Chain Analytics",
-    description: "Distribution management, vehicle routing optimization, and lean engineering that cut route cycle times and cost-to-serve by double digits",
+    description: "Distribution management, vehicle routing optimization, and lean engineering that reduced route cycle times and cost-to-serve by double digits",
   },
   {
     icon: Target,
     title: "Industrial Systems",
-    description: "IIoT implementation, CMMS, and controls integration with KPI coverage, alerting, and closed-loop actions",
+    description: "IIoT implementation, CMMS, and controls integration enabling KPI coverage, real-time alerting, and closed-loop operational actions",
   },
 ];
 
@@ -33,10 +33,8 @@ export function About() {
           </h2>
           <div className="w-16 h-1 bg-primary mx-auto mb-6 rounded-full" />
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm a Master's student in Industrial Engineering at Dalhousie University who translates reliability
-            and operations research into measurable gains. With refinery experience in instrumentation and controls,
-            I blend shop-floor realities with optimization models to deliver safer, leaner, and more predictable
-            operations.
+            I’m a Master’s student in Industrial Engineering at Dalhousie University, focused on turning reliability and operations research into measurable performance gains.
+            With hands-on refinery experience in instrumentation and controls, I bridge shop-floor realities with optimization models to deliver safer, leaner, and more predictable operations.
           </p>
         </div>
 

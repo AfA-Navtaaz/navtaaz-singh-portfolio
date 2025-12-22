@@ -281,7 +281,7 @@ const ProjectDetail = () => {
                     I'd be happy to discuss the details and methodology.
                   </p>
                   <Button variant="hero" size="sm" className="w-full" asChild>
-                    <a href="mailto:navtaaz@dal.ca">Get in Touch</a>
+                    <a href="mailto:navtaazsingh02@gmail.com">Get in Touch</a>
                   </Button>
                 </div>
               </div>

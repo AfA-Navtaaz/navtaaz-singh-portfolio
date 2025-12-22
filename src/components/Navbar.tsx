@@ -57,11 +57,23 @@ export function Navbar() {
                 {item.name}
               </button>
             ))}
-            <Button variant="hero" size="sm" className="ml-2" asChild>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            {/* <Button variant="hero" size="sm" className="ml-2" asChild>
+              <a href="https://drive.google.com/drive/folders/1LJ9FAIRlZG_OrwT4qUUdX_I_V0c0O2UU?usp=sharing/Navtaaz_Singh.pdf" target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
-            </Button>
+            </Button> */}
+<a
+  href="https://drive.google.com/file/d/18qMRPu9f9iRj9mulJ59F-gBogU49VrMt/view"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="heroOutline" size="lg">
+    Resume
+  </Button>
+</a>
+
+
+
           </div>
 
           {/* Mobile Menu Button */}

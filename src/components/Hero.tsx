@@ -1,4 +1,5 @@
 import { MapPin, Calendar, ArrowDown } from "lucide-react";
+// import { ArrowDown, ArrowRight, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import profilePhoto from "@/assets/profile-photo.jpg";
@@ -49,7 +50,7 @@ export function Hero() {
           {/* Status Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 mb-6 animate-fade-in">
             <span className="text-sm font-medium text-accent">
-              Actively seeking Summer 2025 Co-op Opportunities
+              🎯 Open to Summer 2025 Co-op | Industrial Engineering
             </span>
           </div>
 
@@ -59,25 +60,26 @@ export function Hero() {
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground mb-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Industrial Engineering · Reliability · Operations Research
+            Reliability & Asset Management | Supply Chain & Operational Analytics
           </p>
 
           {/* Location & Education */}
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground mb-8 animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <div className="flex items-center gap-1.5">
               <MapPin size={16} className="text-primary" />
-              <span>Halifax, Canada</span>
+              <span>M.Eng Industrial Engineering (Co-op), Dalhousie University</span>
+              
             </div>
             <div className="hidden sm:block w-1 h-1 rounded-full bg-border" />
             <div className="flex items-center gap-1.5">
               <Calendar size={16} className="text-primary" />
-              <span>M.Eng Industrial Engineering (Co-op)</span>
+              <span>Halifax, Canada</span>
             </div>
           </div>
 
           {/* Focus Areas */}
           <div className="flex flex-wrap items-center justify-center gap-2 mb-10 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            {["Reliability Engineering", "Supply Chain Analytics", "Operations Research", "Decision Analysis"].map((tag) => (
+            {["Reliability & Asset Performance Management (APM)", "Supply Chain Analytics", "Operations Research & Optimization", "Decision Analysis & Risk Modeling"].map((tag) => (
               <Badge key={tag} variant="secondary" className="px-3 py-1 text-sm font-medium">
                 {tag}
               </Badge>
@@ -85,7 +87,7 @@ export function Hero() {
           </div>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.5s" }}>
+          <div className="mt-20 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.5s" }}>
             <Button variant="hero" size="lg" onClick={scrollToProjects}>
               View My Work
             </Button>
@@ -95,17 +97,23 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in" style={{ animationDelay: "0.8s" }}>
-          <button 
-            onClick={scrollToProjects}
-            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-            aria-label="Scroll down"
-          >
-            <span className="text-xs font-medium uppercase tracking-wider">Scroll</span>
-            <ArrowDown size={20} className="animate-bounce" />
-          </button>
-        </div>
+{/* Scroll Indicator */}
+<div
+  className="absolute left-1/2 bottom-16 -translate-x-1/2 animate-fade-in"
+  style={{ animationDelay: "0.8s" }}
+>
+  <button
+    onClick={scrollToProjects}
+    className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+    aria-label="Scroll down"
+  >
+    <span className="text-xs font-medium uppercase tracking-wider">
+      Scroll
+    </span>
+    <ArrowDown size={20} className="animate-bounce" />
+  </button>
+</div>
+
       </div>
     </section>
   );

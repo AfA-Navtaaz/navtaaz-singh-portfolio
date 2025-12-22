@@ -6,14 +6,15 @@ const education = [
     degree: "Master of Engineering – Industrial Engineering (Co-op)",
     institution: "Dalhousie University",
     location: "Halifax, Canada",
-    period: "2024 – Present",
+    period: "2025 – Present",
     grade: "A+ / A grades in core IE courses",
     courses: [
-      "Decision Analysis",
-      "Operations Research",
-      "Distribution Management",
-      "Lean Engineering",
+      "Decision Analysis & Risk Modeling",
+      "Operations Research & Optimization",
+      "Distribution & Logistics Management",
+      "Lean Engineering & Process Improvement",
       "Supply Chain Management",
+
     ],
     current: true,
   },
@@ -24,6 +25,11 @@ const education = [
     period: "2019 – 2023",
     grade: "CGPA: 8.49 / 10",
     minor: "Computer Science & Engineering",
+    courses: [
+      "Control Systems",
+      "Process Instrumentation",
+      "Industrial Automation",
+    ],
     current: false,
   },
 ];

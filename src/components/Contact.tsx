@@ -17,20 +17,19 @@ export function Contact() {
           <div className="w-16 h-1 bg-primary mx-auto mb-6 rounded-full" />
           
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            I'm actively seeking <span className="font-semibold text-foreground">Summer 2025 Co-op opportunities</span> in 
-            Industrial Engineering, Reliability, Operations Research, or Supply Chain Analytics. 
-            I'd love to discuss how my skills can contribute to your team.
+            I’m open to <span className="font-semibold text-foreground">Summer 2025 co-op opportunities</span> in Industrial Engineering, Reliability, Operations Research, and Supply Chain Analytics. 
+            I enjoy working on data-driven, real-world problems and would be glad to discuss how my experience can add value to your team.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
             <Button variant="hero" size="lg" asChild>
-              <a href="mailto:navtaaz@dal.ca">
+              <a href="mailto:navtaazsingh02@gmail.com">
                 <Mail size={20} />
-                navtaaz@dal.ca
+                Email Me
               </a>
             </Button>
             <Button variant="heroOutline" size="lg" asChild>
-              <a href="https://linkedin.com/in/navtaazsingh" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/navtaaz-singh-20b357186/" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={20} />
                 LinkedIn Profile
               </a>
